@@ -63,8 +63,8 @@ const team = [
     text: "text-white",
   },
   {
-    name: "Harshada Goud",
-    role: "Design Director",
+    name: "Asmita Swain",
+    role: "Head of Design",
     color: "bg-rose-500",
     letter: "S",
     text: "text-white",
@@ -165,11 +165,11 @@ const AboutPage = () => {
               className="rounded-3xl border border-white/10 bg-[#111] p-6 text-center transition-colors hover:border-white/20"
             >
               <div
-                className={`${member.color} ${member.text} mx-auto mb-4 flex h-15 w-15 items-center justify-center rounded-[20px] font-heading text-2xl font-bold shadow-lg`}
+                className={`${member.color} ${member.text} mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-[20px] font-heading text-2xl font-bold shadow-lg`}
               >
                 {member.letter}
               </div>
-              <p className="font-body text-base font-bold text-white">
+              <p className=" text-sm font-body text-base font-bold text-white">
                 {member.name}
               </p>
               <p className="mt-1 text-xs font-medium text-white/40">
